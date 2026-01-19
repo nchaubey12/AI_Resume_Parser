@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Resume Parsing Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>AI Resume Parsing Tool</h1>
+
+    <!-- Upload Section -->
+    <div class="upload-box">
+        <input type="file" id="resumeFile" accept=".pdf">
+        <button onclick="uploadResume()">Upload Resume</button>
+    </div>
+
+    <!-- Table -->
+    <table id="resumeTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Location</th>
+                <th>Hard Skills</th>
+                <th>Soft Skills</th>
+                <th>Experience</th>
+                <th>LinkedIn</th>
+                <th>GitHub</th>
+                <th>Resume</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- rows injected by JS -->
+        </tbody>
+    </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

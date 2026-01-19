@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Ni",
+        "email": "",
+        "skills": [
+            "python",
+            "java",
+            "javascript",
+            "nlp",
+            "sql",
+            "html",
+            "css",
+            "react"
+        ],
+        "experience": [
+            "AlphaSquare Labs",
+            "Artificial",
+            "Bootstra",
+            "Se",
+            "SAP"
+        ]
+    }
+]
